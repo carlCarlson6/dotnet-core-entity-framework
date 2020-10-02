@@ -6,6 +6,7 @@ namespace Repository.Models
     public class Article : IArticle
     {
         public int ID { get; set; }
+        public Guid uuid {get; set; }
         public string Name { get; set; }
         public string Text {get; set;} 
         public string Description { get; set; }
