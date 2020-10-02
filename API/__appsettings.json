@@ -1,0 +1,15 @@
+{
+    "ConnectionStrings": {
+      "PgqlDbConnectionString":"Server=<server>;port=<port>;user id=<user>;password=<password>;database=<database>;SSL Mode=Require;Trust Server Certificate=true"
+    },
+  
+    "Logging": {
+      "LogLevel": {
+        "Default": "Information",
+        "Microsoft": "Warning",
+        "Microsoft.Hosting.Lifetime": "Information"
+      }
+    },
+    "AllowedHosts": "*"
+  }
+  
